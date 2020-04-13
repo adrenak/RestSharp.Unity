@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/adrenak/RestSharp.Unity/compare/v1.0.0...v1.0.1) (2020-04-13)
+
+
+### Bug Fixes
+
+* Move .NET version dependent code into .zip ([aba3c2e](https://github.com/adrenak/RestSharp.Unity/commit/aba3c2e0826df33a41c2dc29e7c00b3d36629231))
+
 # 1.0.0 (2020-04-13)
 
 
