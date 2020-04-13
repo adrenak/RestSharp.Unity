@@ -1,0 +1,13 @@
+{
+	"name": "com.adrenak.restsharp.unity",
+	"version": "0.0.0",
+	"displayName": "RestSharp.Unity",
+	"description": "A UPM package for RestSharp with some extensions and extra stuff.",
+	"unity": "2018.4",
+	"author": {
+		"name": "RestSharp",
+		"url": "http://www.restsharp.org"
+	},
+	"dependencies": { },
+	"scopedRegistries": [ ]
+}
