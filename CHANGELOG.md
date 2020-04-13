@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/adrenak/RestSharp.Unity/compare/v1.0.1...v1.1.0) (2020-04-13)
+
+
+### Features
+
+* Remove 2.0 compatibility for simplicity ([b9c5071](https://github.com/adrenak/RestSharp.Unity/commit/b9c507190501011c574199270b1565a187bb7035))
+
 ## [1.0.1](https://github.com/adrenak/RestSharp.Unity/compare/v1.0.0...v1.0.1) (2020-04-13)
 
 
