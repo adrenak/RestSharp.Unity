@@ -1,35 +1,9 @@
 ﻿using System.Net;
 using System.Text;
 using System;
-using System.Threading.Tasks;
 
 namespace RestSharp {
-    public static class RestSharpExtensions {
-#if NET_4_6
-        /// <summary>
-        /// Executes the request asynchronously using a Task
-        /// </summary>
-        /// <param name="request">The request to be executed</param>
-        /// <returns>A Task for the response</returns>
-        public static Task<IRestResponse> ExecuteAsync(this RestClient client, RestRequest request) {
-            var task = new TaskCompletionSource<IRestResponse>();
-            client.ExecuteAsync(request, response => task.SetResult(response));
-            return task.Task;
-        }
-
-        /// <summary>
-        /// Executes the request asynchronously using a Task
-        /// </summary>
-        /// <param name="request">The request to be executed</param>
-        /// <param name="handle">A handle to allow aborting the execution</param>
-        /// <returns>A Task for the response</returns>
-        public static Task<IRestResponse> ExecuteAsync(this RestClient client, RestRequest request, out RestRequestAsyncHandle handle) {
-            var task = new TaskCompletionSource<IRestResponse>();
-            handle = client.ExecuteAsync(request, response => task.SetResult(response));
-            return task.Task;
-        }
-#endif
-
+    public static partial class RestSharpExtensions {
         /// <summary>
         /// Returns if the Status Code implies success 
         /// </summary>
